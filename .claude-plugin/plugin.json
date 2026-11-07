@@ -1,0 +1,34 @@
+{
+  "name": "chem-ops",
+  "version": "0.1.0",
+  "description": "Cheminformatics for compound screening in Claude Code: property and drug-likeness profiling, ligand efficiency, PAINS/Brenk/NIH structural alerts, library filter cascades with attrition reporting, salt stripping and deduplication, similarity search, Butina clustering, Bemis-Murcko scaffolds, series cores (MCS) and 2D depiction, built on RDKit.",
+  "author": {
+    "name": "Subhendra Basu",
+    "url": "https://github.com/bosons14"
+  },
+  "homepage": "https://github.com/bosons14/chem-ops",
+  "repository": "https://github.com/bosons14/chem-ops",
+  "license": "MIT",
+  "keywords": [
+    "cheminformatics",
+    "rdkit",
+    "drug-discovery",
+    "medicinal-chemistry",
+    "compound-screening",
+    "pains",
+    "structural-alerts",
+    "lipinski",
+    "ligand-efficiency",
+    "clustering",
+    "scaffold",
+    "pharma"
+  ],
+  "mcpServers": {
+    "chem-ops": {
+      "command": "sh",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server/run.sh"
+      ]
+    }
+  }
+}

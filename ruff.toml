@@ -1,0 +1,5 @@
+# Lint with ruff's 0.17+ default rule set.
+required-version = ">=0.17"
+
+# run.sh requires Python 3.10+.
+target-version = "py310"

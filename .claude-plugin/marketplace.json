@@ -1,0 +1,17 @@
+{
+  "name": "chem-ops",
+  "owner": {
+    "name": "Subhendra Basu",
+    "url": "https://github.com/bosons14"
+  },
+  "plugins": [
+    {
+      "name": "chem-ops",
+      "source": "./",
+      "description": "Cheminformatics for compound screening: property and drug-likeness profiling, ligand efficiency, PAINS/Brenk/NIH alerts, library filter cascades, clustering, scaffolds, series cores and depiction."
+    }
+  ],
+  "metadata": {
+    "description": "Open-source cheminformatics toolkit for Claude Code by Subhendra Basu."
+  }
+}

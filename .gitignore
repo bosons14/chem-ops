@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.png
+!examples/*.png
+*.svg
+.venv/
